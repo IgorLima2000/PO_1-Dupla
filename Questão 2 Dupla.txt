@@ -1,0 +1,17 @@
+using System;
+
+class Program {
+  class Pessoa{
+    public string nome;    
+    }
+  public static void Main (string[] args) {
+    
+    Pessoa p1 = new Pessoa();
+    p1.nome = "João";
+    Pessoa p2 = p1;
+    p2.nome = "Maria";
+    Console.WriteLine(p1.nome);
+    Console.WriteLine(p2.nome);
+
+  }
+}
