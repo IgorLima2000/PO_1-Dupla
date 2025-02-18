@@ -1,0 +1,11 @@
+using System;
+class tipoprimitivo {
+  static void Main() {
+    int a = 5;
+    int b = a;
+    b = 21;
+    Console.WriteLine(a);
+    Console.WriteLine(b);
+    
+  }
+}
