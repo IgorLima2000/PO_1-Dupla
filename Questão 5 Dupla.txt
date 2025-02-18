@@ -1,0 +1,8 @@
+1. Explique por que s1 == s2 é true.
+Porque eles tem o mesmo valor os dois são "Olá" eles possuem o mesmo objeto 
+
+2. Explique por que object.ReferenceEquals(s1, s3) pode ser false.
+Porque aparentemente o método object.ReferencEquals() compara referencias de memorias para ver se
+ s1 e s3 apontam para o mesmo obleto e como o s3 foi criado como um novo operador new oque significa 
+que ele esta fora do mesmo pool de strings, por isso ele contem referencia para um novo objeto mesmo que a string seja a mesma.
+Ou seja mesmo que a string seja a mesma o objeto na memoria não e o mesmo.
